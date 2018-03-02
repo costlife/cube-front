@@ -1,0 +1,54 @@
+{
+    "component": "WidgetContainer",
+    "data": {
+        "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/02/13/dad72294-a0bf-44a0-aad7-939e324d9a0e.jpg"
+    },
+    "children":[{
+        "component": "WidgetRow",
+        "data": {},
+        "children": [{
+            "component": "WidgetColumn",
+            "data": {
+                "cols": 12
+            },
+            "children": [{
+                "component": "WidgetImage",
+                "data": {
+                    "image_url": "https://image.png"
+                }
+            }]
+        }]
+    }, {
+        "component": "WidgetRow",
+        "data": {},
+        "children": [{
+            "component": "WidgetColumn",
+            "data": {
+                "cols": 6
+            },
+            "children": [{
+                "component": "WidgetProductItem",
+                "data": {
+                    "image_url": "https://image.png",
+                    "title": "",
+                    "price": "",
+                    "promotion": ""
+                }
+            }]
+        }, {
+            "component": "WidgetColumn",
+            "data": {
+                "cols": 6
+            },
+            "children": [{
+                "component": "WidgetProductItem",
+                "data": {
+                    "image_url": "https://image.png",
+                    "title": "",
+                    "price": "",
+                    "promotion": ""
+                }
+            }]
+        }]
+    }]
+}
