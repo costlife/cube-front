@@ -12,12 +12,17 @@ Vue.component('component-proxy', {
     props: {
       type: Object,
       default: () => {}
+    },
+    styles: {
+      type: Object,
+      default: () => {}
     }
   },
   render(createElem) {
     return createElem(this.name, {
       props: {
-        data: this.props
+        data: this.props,
+        styles: this.styles
       }
     });
   }

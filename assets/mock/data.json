@@ -1,7 +1,7 @@
 {
     "component": "WidgetContainer",
     "data": {
-        "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/02/13/dad72294-a0bf-44a0-aad7-939e324d9a0e.jpg"
+        "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/03/02/cead7718-008e-4195-8abc-8d1a3368bfcb.jpg"
     },
     "children":[{
         "component": "WidgetRow",
@@ -16,7 +16,37 @@
             "children": [{
                 "component": "WidgetImage",
                 "data": {
-                    "image_url": "https://image.png"
+                    "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/03/02/2b7615ac-08e0-471f-b7ca-88b182be0757.jpg"
+                }
+            }]
+        }]
+    }, {
+        "component": "WidgetRow",
+        "data": {
+            "full-row": true
+        },
+        "children": [{
+            "component": "WidgetColumn",
+            "data": {
+                "cols": 12
+            },
+            "children": [{
+                "component": "WidgetNavbar",
+                "styles": {
+                    "color": "#fff",
+                    "background-color": "#dfa0a7"
+                },
+                "data": {
+                    "items": [{
+                        "target": "100",
+                        "text": ["STEP 1", "美 食"]
+                    }, {
+                        "target": "200",
+                        "text": ["STEP 2", "礼 物"]
+                    }, {
+                        "target": "300",
+                        "text": ["STEP 3", "酒 店"]
+                    }]
                 }
             }]
         }]
@@ -31,10 +61,12 @@
             "children": [{
                 "component": "WidgetProductItem",
                 "data": {
-                    "image_url": "https://image.png",
-                    "title": "",
-                    "price": "",
-                    "promotion": ""
+                    "link": "https://m2.yaolaivip.com/restaurant/#/mealdetail/9ac80161f3834db3bab2c15f066ada51",
+                    "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/01/15/9fe55cb2-938e-4ad1-bdec-ba4220ce49f1.jpg",
+                    "title": "黑天鹅蛋糕",
+                    "desc": "挚爱",
+                    "promotion_1": "活动价：999",
+                    "promotion_2": "返耀莱在线1%金币"
                 }
             }]
         }, {
@@ -45,10 +77,12 @@
             "children": [{
                 "component": "WidgetProductItem",
                 "data": {
-                    "image_url": "https://image.png",
-                    "title": "",
-                    "price": "",
-                    "promotion": ""
+                    "link": "https://m2.yaolaivip.com/restaurant/#/mealdetail/9ac80161f3834db3bab2c15f066ada51",
+                    "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/01/15/9fe55cb2-938e-4ad1-bdec-ba4220ce49f1.jpg",
+                    "title": "黑天鹅蛋糕",
+                    "desc": "挚爱",
+                    "promotion_1": "活动价：999",
+                    "promotion_2": "返耀莱在线1%金币"
                 }
             }]
         }, {
@@ -59,10 +93,12 @@
             "children": [{
                 "component": "WidgetProductItem",
                 "data": {
-                    "image_url": "https://image.png",
-                    "title": "",
-                    "price": "",
-                    "promotion": ""
+                    "link": "https://m2.yaolaivip.com/restaurant/#/mealdetail/9ac80161f3834db3bab2c15f066ada51",
+                    "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/01/15/9fe55cb2-938e-4ad1-bdec-ba4220ce49f1.jpg",
+                    "title": "黑天鹅蛋糕",
+                    "desc": "挚爱",
+                    "promotion_1": "活动价：999",
+                    "promotion_2": "返耀莱在线1%金币"
                 }
             }]
         }, {
@@ -73,10 +109,76 @@
             "children": [{
                 "component": "WidgetProductItem",
                 "data": {
-                    "image_url": "https://image.png",
-                    "title": "",
-                    "price": "",
-                    "promotion": ""
+                    "link": "https://m2.yaolaivip.com/restaurant/#/mealdetail/9ac80161f3834db3bab2c15f066ada51",
+                    "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/01/15/9fe55cb2-938e-4ad1-bdec-ba4220ce49f1.jpg",
+                    "title": "黑天鹅蛋糕",
+                    "desc": "挚爱",
+                    "promotion_1": "活动价：999",
+                    "promotion_2": "返耀莱在线1%金币"
+                }
+            }]
+        }, {
+            "component": "WidgetColumn",
+            "data": {
+                "cols": 6
+            },
+            "children": [{
+                "component": "WidgetProductItem",
+                "data": {
+                    "link": "https://m2.yaolaivip.com/restaurant/#/mealdetail/9ac80161f3834db3bab2c15f066ada51",
+                    "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/01/15/9fe55cb2-938e-4ad1-bdec-ba4220ce49f1.jpg",
+                    "title": "黑天鹅蛋糕",
+                    "desc": "挚爱",
+                    "promotion_1": "活动价：999",
+                    "promotion_2": "返耀莱在线1%金币"
+                }
+            }]
+        }, {
+            "component": "WidgetColumn",
+            "data": {
+                "cols": 6
+            },
+            "children": [{
+                "component": "WidgetProductItem",
+                "data": {
+                    "link": "https://m2.yaolaivip.com/restaurant/#/mealdetail/9ac80161f3834db3bab2c15f066ada51",
+                    "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/01/15/9fe55cb2-938e-4ad1-bdec-ba4220ce49f1.jpg",
+                    "title": "黑天鹅蛋糕",
+                    "desc": "挚爱",
+                    "promotion_1": "活动价：999",
+                    "promotion_2": "返耀莱在线1%金币"
+                }
+            }]
+        }, {
+            "component": "WidgetColumn",
+            "data": {
+                "cols": 6
+            },
+            "children": [{
+                "component": "WidgetProductItem",
+                "data": {
+                    "link": "https://m2.yaolaivip.com/restaurant/#/mealdetail/9ac80161f3834db3bab2c15f066ada51",
+                    "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/01/15/9fe55cb2-938e-4ad1-bdec-ba4220ce49f1.jpg",
+                    "title": "黑天鹅蛋糕",
+                    "desc": "挚爱",
+                    "promotion_1": "活动价：999",
+                    "promotion_2": "返耀莱在线1%金币"
+                }
+            }]
+        }, {
+            "component": "WidgetColumn",
+            "data": {
+                "cols": 6
+            },
+            "children": [{
+                "component": "WidgetProductItem",
+                "data": {
+                    "link": "https://m2.yaolaivip.com/restaurant/#/mealdetail/9ac80161f3834db3bab2c15f066ada51",
+                    "image_url": "https://sr-img.oss-cn-beijing.aliyuncs.com/OSS/2018/01/15/9fe55cb2-938e-4ad1-bdec-ba4220ce49f1.jpg",
+                    "title": "黑天鹅蛋糕",
+                    "desc": "挚爱",
+                    "promotion_1": "活动价：999",
+                    "promotion_2": "返耀莱在线1%金币"
                 }
             }]
         }]
