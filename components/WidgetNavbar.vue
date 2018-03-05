@@ -28,11 +28,10 @@
     methods: {
       scrollTo (target) {
         document.documentElement.scrollTop = target
-        window.pageYOffset = target
         document.body.scrollTop = target
       },
       onScroll () {
-        let scroll = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop
+        let scroll = document.documentElement.scrollTop || document.body.scrollTop
         if (scroll >= this.$el.offsetTop) {
           this.isFixed = true
         } else {
