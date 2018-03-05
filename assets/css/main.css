@@ -1,0 +1,8 @@
+@import url('~/assets/css/normalize.css');
+* {
+    box-sizing: border-box;
+}
+a {
+    color: #111;
+    text-decoration: none;
+}

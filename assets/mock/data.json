@@ -5,7 +5,9 @@
     },
     "children":[{
         "component": "WidgetRow",
-        "data": {},
+        "data": {
+            "full-row": true
+        },
         "children": [{
             "component": "WidgetColumn",
             "data": {
@@ -22,6 +24,34 @@
         "component": "WidgetRow",
         "data": {},
         "children": [{
+            "component": "WidgetColumn",
+            "data": {
+                "cols": 6
+            },
+            "children": [{
+                "component": "WidgetProductItem",
+                "data": {
+                    "image_url": "https://image.png",
+                    "title": "",
+                    "price": "",
+                    "promotion": ""
+                }
+            }]
+        }, {
+            "component": "WidgetColumn",
+            "data": {
+                "cols": 6
+            },
+            "children": [{
+                "component": "WidgetProductItem",
+                "data": {
+                    "image_url": "https://image.png",
+                    "title": "",
+                    "price": "",
+                    "promotion": ""
+                }
+            }]
+        }, {
             "component": "WidgetColumn",
             "data": {
                 "cols": 6

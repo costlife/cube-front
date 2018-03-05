@@ -1,5 +1,5 @@
 <template>
-  <div class="widget-container" :style="{background: 'url(' + data.image_url + ')'}">
+  <div class="widget-container" :style="{backgroundImage: 'url(' + data.image_url + ')'}">
     <slot></slot>
   </div>
 </template>
@@ -23,5 +23,6 @@
 <style>
   .widget-container {
     min-height: 100%;
+    background-size: 100%;
   }
 </style>

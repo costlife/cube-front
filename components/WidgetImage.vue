@@ -19,3 +19,11 @@
     }
   }
 </script>
+<style lang="less">
+  .widget-image {
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+</style>
