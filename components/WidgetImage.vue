@@ -1,5 +1,5 @@
 <template>
-  <div class="widget-image">
+  <div class="widget-image" :style="styles">
     <img :src="data.image_url" alt="">
   </div>
 </template>
@@ -7,7 +7,8 @@
   export default {
     name: 'widget-image',
     props: {
-      data: {}
+      data: {},
+      styles: {}
     },
     data () {
       return {
@@ -22,6 +23,7 @@
 <style lang="less">
   .widget-image {
     img {
+      margin: auto;
       display: block;
       max-width: 100%;
     }

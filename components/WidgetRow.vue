@@ -1,5 +1,5 @@
 <template>
-  <div class="widget-row" :class="{'full-row': data['full-row']}">
+  <div class="widget-row" :class="{'full-row': data['full-row']}" :style="styles">
     <slot></slot>
   </div>
 </template>
@@ -7,7 +7,8 @@
   export default {
     name: 'widget-row',
     props: {
-      data: {}
+      data: {},
+      styles: {}
     },
     data () {
       return {

@@ -1,5 +1,5 @@
 <template>
-  <div class="widget-container" :style="{backgroundImage: 'url(' + data.image_url + ')'}">
+  <div class="widget-container" :style="styles">
     <slot></slot>
   </div>
 </template>
@@ -7,7 +7,8 @@
   export default {
     name: 'widget-container',
     props: {
-      data: {}
+      data: {},
+      styles: {}
     },
     data () {
       return {
